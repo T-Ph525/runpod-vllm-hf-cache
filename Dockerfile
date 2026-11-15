@@ -1,5 +1,5 @@
 # syntax=docker/dockerfile:1.7
-ARG WORKER_IMAGE=runpod/worker-v1-vllm:latest
+ARG WORKER_IMAGE=runpod/worker-v1-vllm:v2.30.3
 FROM ${WORKER_IMAGE}
 
 ARG MODEL_NAME
