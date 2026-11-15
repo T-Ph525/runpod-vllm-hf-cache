@@ -1,0 +1,10 @@
+.git
+.github
+.env
+.env.*
+*.safetensors
+*.bin
+*.pt
+*.pth
+models/
+huggingface/
